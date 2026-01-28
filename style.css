@@ -1,0 +1,386 @@
+
+body {
+	font-family: 'Poppins', sans-serif; /* מגדיר את הגופן הראשי לאתר */
+	font-weight: 400; /* משקל הגופן (רגיל) */
+	font-size: 15px; /* גודל הגופן הראשי */
+	line-height: 1.7; /* מרווח בין השורות */
+	color: #fff; /* צבע הטקסט  */
+	 margin-bottom: 0;
+	 margin: 0;  /*מסיר מרווחים חיצוניים */
+	 padding: 0; /*מסיר רווחים פנימיים */
+	 overflow-x: hidden; /*בטל גלילה אופקיתמ*/
+	width: 100%;
+    height: 100%;
+	position: relative;
+	overflow-y: auto; /* לאפשר גלילה אנכית */
+}
+
+/* מחביא גלגלת */
+.hide-scroll:-webkit-scrollbar {
+	display: none; /* מסתיר את גלגלת הגלילה בדפדפן */
+}
+.hide-scroll {
+	 -ms-overflow-style: none; /* מחביא גלילה ב-Internet Explorer */
+	scrollbar-width: none; /* מחביא גלילה בדפדפן פיירפוקס */
+	}
+
+
+.home{
+		overflow: hidden;
+	}
+
+	.navbar {
+		background-color:rgb(216, 23, 132); /* צבע רקע של שורת הניווט */
+		height: 12vh ; /* גובה שורת הניווט */
+		display: flex; /*  מבנה  */
+		align-items: center; /* מיקום במרכז אנכי */
+		 position: fixed;
+		width: 100%;
+		z-index: 1000; /* כדי  שהתפריט יהיה מעל לשאר האלמנטים */
+		
+		
+		
+	}	
+
+	#ruler{
+		height: 12vh ; /* גובה שורת הניווט */
+		display: flex; /*  מבנה  */
+		 justify-content: right; /* מיקום התוכן בצד ימין */
+		align-items: center; /* מיקום במרכז אנכי */
+		 position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 1000; /* כדי  שהתפריט יהיה מעל לשאר האלמנטים */
+		margin: 0;
+		padding: 0;
+		max-width: 90%;		
+	}
+
+a {
+	text-decoration: none; /* מסיר קו תחתון */
+	color: rgb(223, 208, 246); 
+	font-size: 30px; 
+	text-align: center; /* מיושר למרכז */
+	margin: 0; /* מסיר רווח חיצוני */
+	padding: 0 10px; /* משאיר רק רווח פנימי אופקי */
+	transition: color 0.2s, font-size 0.2s; /* אפקט מעבר חלק על צבע וגודל */
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.navbar a:hover {
+	color: rgb(111, 111, 153); 
+	font-size: 35px; 
+}
+
+  /*לוגו*/
+.logo{
+	position: absolute;
+	left:0;
+	top: 0;
+  }
+
+
+/*איפרם*/
+iframe {
+	width: 100vw;
+	height: 90vh;
+	background-image: url("./images/עיצוב\ ללא\ שם\ \(1\).png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	margin: 0; 
+	padding: 0;
+	border: none;
+	display: block; /* מבטל את הרווח שנובע מבעיות  */
+    
+    
+  }
+
+  P
+  {
+		color: rgb(118, 76, 97) blue;  /*צבע טקסט */
+  }
+
+
+
+/* עיצוב הפוטר */
+.footer {
+	background-color: rgb(216, 23, 132);; 
+	color: #fff; 
+	padding: 20px; /* ריווח פנימי מסביב לטקסט */
+	text-align: center; /* מיקום טקסט במרכז */
+  }
+  
+  /* עיצוב אזור התוכן של הפוטר */
+  .footer-content {
+	display: flex; /* הצגת העמודות בשורה אחת */
+	justify-content: space-around; /* פיזור העמודות במרווחים שווים */
+	flex-wrap: wrap; /* מאפשר לעמודות לעבור שורה אם אין מקום */
+	margin-bottom: 20px; /* מרווח תחתון בין התוכן לתחתית הפוטר */
+	margin-bottom: 10px; /* הקטנת הרווח בין התוכן למטה */
+	
+  }
+
+  /* עיצוב כל עמודה */
+  .footer-column {
+	margin: 10px; /* מרווח מסביב לכל עמודה */
+  }
+  
+  /* עיצוב כותרות העמודות */
+  .footer-column h3 {
+	margin-bottom: 10px; /* מרווח תחתון בין הכותרת לתוכן */
+  }
+  
+  /* עיצוב הרשימה של סוגי האימונים */
+  .training-list {
+	list-style: none; /* ביטול הנקודות ברשימה */
+	padding: 0; /* ביטול ריווח פנימי */
+	margin: 0; /* ביטול ריווח חיצוני */
+  }
+  
+  /* עיצוב אזור הקישורים החברתיים */
+  .social-links {
+	display: flex; /* הצגת האייקונים בשורה אחת */
+	justify-content: center; /* מיקום האייקונים במרכז */
+	gap: 6px; /* מרווח בין האייקונים */
+  }
+  
+  /* עיצוב האייקונים */
+  .social-icon img {
+	width: 30px; /* רוחב האייקונים */
+	height: 30px; /* גובה האייקונים */
+  }
+
+  .social-links :hover {
+    cursor: pointer;
+    /* שינוי סמן העכבר כשעוברים על האייקון */
+}
+  
+  /* עיצוב שורת זכויות היוצרים */
+  .footer-bottom {
+	border-top: 1px solid #555; /* קו עליון עדין */
+    padding-top: 5px; /*  ריווח עליון */
+    margin-top: 0; /* ביטול ריווח חיצוני */
+	
+  }
+  
+  /* עיצוב הקישורים בתחתית */
+  .footer-link {
+	color: #fff; 
+	font-size: 18px;
+	gap: 8px;
+  }
+  
+  .footer-link:hover {
+	text-decoration: none; /* ביטול קו תחתון כשעוברים עם העכבר */
+  }
+  
+
+
+
+
+/* דף יצירת קשר-טופס */
+.form
+{
+align-items: center; 
+/* /* מגדיר את היישור האנכי של האלמנטים הפנימייםם   */
+  box-sizing: border-box;
+ /* מגדיר כיצד לחשב את גודל האלמנט: רק תוכן האלמנט כלול ברוחב ובגובה, */
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right:30% ;
+ padding-left: 3%;
+ padding-right: 3%;
+ padding-bottom: 2%;
+
+}
+
+.details{
+	display: flex;
+	margin-top: 1%;
+	justify-content: center;
+	align-items: center;
+	 margin-bottom: 1%;
+  }
+  .or{
+	text-align-last:center ;
+	color: rgb(118, 76, 97) ;
+	padding-top: 2%;
+  }
+
+  /* סוף */
+  .end-text {
+	padding-top: 25%; /* ריווח עליון  */
+	padding-bottom: 30%; /* ריווח תחתון */
+	padding-left: 30%; /* ריווח שמאלי  */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+	font-size: 2rem; 
+	color:  #007acc; 
+  }
+  
+  .end {
+	align-items: center; /* מיישר פריטים למרכז   */
+	border-style: dotted; 
+	border-width: thick; 
+	box-sizing: content-box; /* גבולות וריווחים אינם משפיעים על גודל האלמנט הכולל. */
+	margin-top: 8%; /* ריווח חיצוני בין המסגרת לדף . */
+	margin-left: 30%; 
+	margin-right: 30%; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-bottom: 2%; /* ריווח פנימי תחתון של 2% . */
+	
+  }
+  
+
+
+   /*גלריה*/
+/* עיצוב מיכל הגלריה הראשי */
+.section-fluid-main {
+    display: grid; /* יצירת גריד לסידור התמונות */
+    grid-template-columns: repeat(2, 1fr); /* שתי תמונות בשורה */
+    gap: 20px; /* רווח בין האלמנטים */
+    row-gap: 30px; /* רווח אנכי גדול יותר בין השורות */
+    padding: 20px; /* רווח פנימי מסביב */
+    margin-top: 70px; /* רווח עליון  */
+    justify-content: center; /* מרכז את התמונות לפי העמוד */
+    justify-items: center; /* מרכז כל תמונה בתוך התא שלה */
+}
+
+/* עיצוב לכל תמונה בגלריה */
+.section-col {
+    position: relative; /* מיקום יחסי */
+    overflow: hidden; /* הסתרת חלקים חורגים */
+    width: 100%; /* רוחב מלא */
+    max-width: 350px; /* רוחב מקסימלי */
+    border-radius: 10px; /* עיגול פינות */
+    margin: 0; /* ביטול רווחים חיצוניים */
+    padding: 0; 
+}
+
+/* עיצוב לתמונה עצמה */
+.section-col img {
+    width: 100%; /* התאמת התמונה לרוחב התא */
+    height: auto; /* שמירה על פרופורציה */
+    transition: transform 0.3s ease-in-out; /* אפקט הגדלה חלק */
+}
+
+/* הגדלת התמונה בהובר */
+.section-col:hover img {
+    transform: scale(1.3); 
+}
+
+
+/* עיצוב לטקסט המופיע בהובר */
+.hover-text {
+    position: absolute; /* מיקום מוחלט ביחס לדיב */
+    bottom: 0; /* מיקום הטקסט בתחתית התמונה */
+    left: 0; /* יישור לצד שמאל */
+    right: 0; /* יישור לצד ימין */
+    background-color: rgba(24, 164, 167, 0.7); /* צבע רקע כהה עם שקיפות */
+    color: rgb(180, 17, 142); 
+    text-align: center; /* יישור הטקסט למרכז */
+    padding: 10px; /* רווח פנימי לטקסט */
+    opacity: 0; /* הסתרת הטקסט במצב רגיל */
+    transition: opacity 0.3s ease-in-out; /* אפקט מעבר חלק */
+}
+
+
+
+/* הצגת טקסט בהובר */
+.section-col:hover .hover-text {
+    opacity: 1; /* הצגת הטקסט בעת מעבר עכבר */
+}
+
+/* עיצוב דפי גלריה : חדר כושר אירובי פילטאיס וסטודיו */
+
+/* סגנון לכל ה-grid */
+.gym-grid, .Aerobics-grid, .Pilates-grid, .studio-grid {
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr); /* 3 עמודות שוות ברוחבן */
+	grid-gap: 10px; /* ריווח בין התמונות  */
+	margin-top: 20px; /* ריווח חיצוני נוסף   */
+  }
+  
+  .gym-grid img, .Aerobics-grid img, .Pilates-grid img, .studio-grid img {
+	width: 75%; /* רוחב התמונה */
+	height: 75%; /* גובה התמונה */
+	object-fit: cover; /* התאמת גודל ללא עיוות */
+	margin: auto; /* ממקם את התמונה במרכז  */
+  }
+  
+  .gym-grid img:hover, .Aerobics-grid img:hover, .Pilates-grid img:hover, .studio-grid img:hover {
+	transform: scale(1.5); 
+	cursor: pointer; /* שינוי סמן לעכבר */
+  }
+
+.grid-container {
+	margin-top: 60px; /* מוסיף רווח חיצוני למעלה בין הקונטיינר לתחילת הדף */
+  }
+
+/* אודות */
+/* עיצוב הכותרת  */
+.Abouth1 {
+    font-size: 40px; 
+    font-family: 'David', Arial, sans-serif; 
+    font-weight: bold; /* הדגשה */
+    margin: 50px auto; /* מרווח עליון   */
+    text-align: center; /* ממרכז את הטקסט */
+    color: #4682B4; 
+    padding-bottom: 10px; /* רווח מתחת לכותרת */
+	padding-top: 35px;
+}
+
+/* עיצוב פסקת הטקסט */
+.About {
+    font-family: Arial, Verdana, sans-serif; 
+    font-size: 22px; 
+    font-weight: bold; 
+    color: #007acc; 
+    text-shadow: 1px 1px 2px #aaa; /* הוספת צל לטקסט */
+    letter-spacing: 1px; /* ריווח בין האותיות */
+    line-height: 1.8; /* מרווח בין שורות */
+    text-align: justify; /* יישור לשני הצדדים */
+    padding: 20px; /* ריווח פנימי */
+    margin: auto; /* מיקום באמצע */
+}
+
+   
+  @media (max-width: 600px) {
+	.section-col{
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.hover-text h2{
+	  font-size: 12px;
+	}
+	.navbar a{
+		font-size: medium;
+	}
+	.gym-grid, .Aerobics-grid, .Pilates-grid, .studio-grid {
+	
+		grid-template-columns: repeat(2, 1fr); /* 3 עמודות שוות ברוחבן */
+
+	  }
+
+	  .form {
+		width: 90%; /* התאמת הרוחב במסכים קטנים */
+		margin: 5% auto;
+		padding: 5%;
+	}
+
+  }
+
+
+
+
+
+
+
+
+
+  
+
+  

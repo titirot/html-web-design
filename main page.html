@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- כותרת הדף שמופיעה בלשונית הדפדפן -->
+  <title>קאנטרי קלאב-titi fitness</title>
+  <!-- מקשר את קובץ ה-CSS לעיצוב הדף -->
+  <link href="style.css" rel="stylesheet">
+  <!-- מוסיף אייקון ללשונית הדפדפן -->
+  <link rel="icon" type="images/x-icon" href="images/titi fitness (1).png">
+</head>
+
+<body class="hide-scroll">
+  <!-- ה-Body מכיל את התוכן של האתר -->
+  <header>
+    <!-- ההדר שמופיע בראש הדף ומכיל את הלוגו ואת תפריט הניווט -->
+
+    <div class="navbar">
+      <!-- תפריט ניווט עם קישורים לעמודים אחרים -->
+
+      <div id="ruler">
+        <div><a href="about_us.html" target="myIframe">אודות</a></div>
+        <div><a href="poto.html" target="myIframe">גלריה</a></div>
+        <div> <a href="form.html" target="myIframe">צור קשר</a></div>
+        <div> <a href="home.html" target="myIframe">דף הבית</a></div>
+      </div>
+        <div class="logo">
+          <!-- קישור לדף הבית עם לוגו -->
+          <a href="home.html" target="myIframe">
+            <img src="images/titi fitness (1).png" width="100" alt="logo">
+          </a>
+        </div>
+      </div>
+   
+  </header>
+  <main>
+    <!-- תוכן עיקרי של הדף -->
+    <div class="main">
+      <!-- טיקר חדשות (scrolling text) שמציג טקסט שנע משמאל לימין -->
+      <marquee dir="rtl" behavior="scroll" direction="left" scrollamount="12"></marquee>
+
+      <!-- iFrame מציג כל פעם  תוכן אחר בתוך המסגרת -->
+      <iframe name="myIframe" src="home.html"
+        style="width: 100%; height: 100vh; overflow-y: scroll; border: none;"></iframe>
+
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <!-- התחלת הפוטר עם מחלקה "footer" לעיצוב -->
+    <div class="footer-content">
+      <!-- אזור תוכן הפוטר, עם חלוקה לעמודות -->
+
+      <!-- עמודת שעות פעילות -->
+      <div class="footer-column">
+        <h3>שעות פעילות</h3> <!-- כותרת לעמודה -->
+        <p>ראשון - חמישי: 6:00 - 22:00</p> <!-- שעות פעילות לימי חול -->
+        <p>שישי: 6:00 - 14:00</p> <!-- שעות פעילות לשישי -->
+      </div>
+
+      <!-- עמודת כתובת -->
+      <div class="footer-column">
+        <h3>כתובת</h3> <!-- כותרת לעמודה -->
+        <p>רחוב הבריאות 10</p> <!-- שורת הכתובת -->
+        <p>עיר הפיטנס, ישראל</p> <!-- העיר והמדינה -->
+      </div>
+
+      <!-- עמודת סוגי אימונים -->
+      <div class="footer-column">
+        <h3>סוגי אימונים</h3> <!-- כותרת לעמודה -->
+        <ul class="training-list">
+          <!-- רשימה ללא נקודות -->
+          <li>חדר כושר - כוח ואירובי</li> <!-- פריט ברשימה -->
+          <li>חדר פילאטיס מכשירים</li> <!-- פריט ברשימה -->
+          <li>סטודיו ליוגה ועיצוב הגוף</li> <!-- פריט ברשימה -->
+          <li>אימונים בקבוצות</li>
+          <li>אימון אישי</li>
+        </ul>
+      </div>
+
+      <!-- עמודת צור קשר -->
+      <div class="footer-column">
+        <h3>צרו קשר</h3> <!-- כותרת לעמודה -->
+        <div class="social-links">
+          <!-- אזור הקישורים לרשתות חברתיות -->
+          <!-- קישור לווטסאפ -->
+          <a target="_blank" class="social-icon" title="WhatsApp">
+            <img src="images/icon.html/social_15707820.png" alt="WhatsApp"> <!-- אייקון ווטסאפ -->
+          </a>
+          <!-- קישור לפייסבוק -->
+          <a target="_blank" class="social-icon" title="Facebook">
+            <img src="images/icon.html/icons8-facebook-48.png" alt="Facebook"> <!-- אייקון פייסבוק -->
+          </a>
+          <!-- קישור לאינסטגרם -->
+          <a target="_blank" class="social-icon" title="Instagram">
+            <img src="images/icon.html/instagram_2111463.png" alt="Instagram"> <!-- אייקון אינסטגרם -->
+          </a>
+          <!-- קישור לטיקטוק -->
+          <a target="_blank" class="social-icon" title="TikTok">
+            <img src="images/icon.html/7564186_tiktok_logo_brand_icon.png" alt="TikTok"> <!-- אייקון טיקטוק -->
+          </a>
+          <!-- קישור ליוטיוב -->
+          <a class="social-icon" title="YouTube">
+            <img src="images/icon.html/social_16033438.png" alt="YouTube"> <!-- אייקון אימייל -->
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- שורת זכויות יוצרים -->
+    <div class="footer-bottom">
+      <p>
+       תיתי רוטנברג כל הזכויות שמורות © 2024  |
+        <!-- טקסט זכויות יוצרים -->
+        <a href="about_us.html" target="myIframe" class="footer-link"> מידע עלינו</a> <!-- קישור לדף תנאים -->
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
