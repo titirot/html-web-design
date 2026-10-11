@@ -2,7 +2,7 @@
 
 A responsive and vibrant promotional web application designed for a country club and fitness center, featuring a modern color palette, an interactive photo gallery, and dedicated pages for various training facilities and classes.
 
-🔗 **Repository:** [https://github.com/titirot/project-js-country-club](https://github.com/titirot/project-js-country-club)
+🔗 **Repository:** [https://github.com/titirot/html-web-design.git](https://github.com/titirot/html-web-design.git)
 
 ---
 
@@ -33,7 +33,7 @@ The website showcases the country club's offerings and allows visitors to easily
 ---
 
 ## 📸 Screenshots
-<img width="1892" height="862" alt="home-page" src="https://github.com/user-attachments/assets/992515af-8fb0-43ac-b01b-ed529c7c3586" />
+<img width="1895" height="857" alt="צילום מסך 2026-07-09 232506" src="https://github.com/user-attachments/assets/0cc2c90a-9128-47c2-b5a8-4e278bc7a420" /> 
 
 ---
 
