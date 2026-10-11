@@ -33,10 +33,7 @@ The website showcases the country club's offerings and allows visitors to easily
 ---
 
 ## 📸 Screenshots
-<img width="1892" height="862" alt="home-page" src="https://github.com/user-attachments/assets/d4855257-5ac6-4b4d-a197-632aa66c6841" />
-
-
- 
+![Titi Fitness Home Page](https://github.com/user-attachments/assets/d4855257-5ac6-4b4d-a197-632aa66c6841)
 
 ---
 
