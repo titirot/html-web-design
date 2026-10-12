@@ -34,7 +34,7 @@ The website showcases the country club's offerings and allows visitors to easily
 
 ## 📸 Screenshots
 
-<img width="1895" height="857" alt="home png" src="https://github.com/user-attachments/assets/f5d5939a-27bb-46c7-9bb6-928b0a53a28f" />
+<img width="1892" height="862" alt="image" src="https://github.com/user-attachments/assets/a17de2b1-7853-4881-afed-adb592e4404f" />
 
 
 ---
