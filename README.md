@@ -33,7 +33,7 @@ The website showcases the country club's offerings and allows visitors to easily
 ---
 
 ## 📸 Screenshots
-<img width="1892" height="862" alt="צילום מסך 2026-10-12 032123" src="https://github.com/user-attachments/assets/63a8fe90-f7c7-4cf9-8657-efb6db182cab" />
+<img width="1892" height="862" alt="home-page" src="https://github.com/user-attachments/assets/5fdd1eee-53fb-437b-9d9c-d4cec27bb84d" />
 
 
 
